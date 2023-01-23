@@ -13,34 +13,34 @@ letter='''this is a letter and multiline string operation and I will do some of 
 
 # # here skip is the skipping value
 # skip=int(input("Skip value: "))
-# sl=letter[n:skip:m]
-# print(sl)
+sl=letter[n:skip:m]
+print(sl)
 
 # now let us check the length of the string
 # 
-# print(len(letter))
+print(len(letter))
 
 # # now let us find the string end with name or namw 
 
-# print(letter.endswith("operation"))
+print(letter.endswith("operation"))
 
 # Now let us cound the number of particular characters
 
-# print(letter.count("t"))
+print(letter.count("t"))
 
 # Now let us capalize the number of characters
 
-# print(letter.capitalize(),"\n")
+print(letter.capitalize(),"\n")
 
 # this will change the letter to uppercase
-# print(letter.upper())
+print(letter.upper())
 
 # Now let us find the word 
 
-# print(letter.find("is"))
+print(letter.find("is"))
 
 # let us replace a word with neword 
 
-# print(letter.replace("letter","shubham"))
+print(letter.replace("letter","shubham"))
 
 
